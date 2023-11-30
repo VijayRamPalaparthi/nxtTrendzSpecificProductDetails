@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.product-page-container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.body-container {
+  width: 80%;
+}
+.product-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-image {
+  width: 50%;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+.rating-box-container {
+  display: flex;
+  align-items: center;
+}
+.rate {
+  height: 30px;
+}
+.rating-count {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #1e293b;
+  margin-left: 10px;
+}
+.desc {
+  font-family: 'roboto';
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #616e7c;
+}
+.ab {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #1e293b;
+  margin-right: 5px;
+}
+.avi {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.p-count-container {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  justify-content: space-between;
+}
+.count {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #616e7c;
+}
+.add {
+  cursor: pointer;
+}
+.button {
+  color: white;
+  font-family: 'roboto';
+  font-weight: 500;
+  height: 40px;
+  width: 120px;
+  font-size: 12px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.similar-products-container {
+  margin-top: 75px;
+}
+.sim-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
